@@ -26,7 +26,7 @@ However, there're some rules it follows to avoid some edge cases:
 
 After that, hill climbing will check the amount of money the new action raises. If the new movement leads it to a better state,
 the algorithm will update the amount of money and stocks. However, doing that, the algorithm may get stuck in some state, having no
-incentive to improve his money. To solve this issue, the new state will also be updated at random with $40%$ of chance.
+incentive to improve his money. To solve this issue, the new state will also be updated at random with $40\%$ of chance.
 
 ## The results
 
